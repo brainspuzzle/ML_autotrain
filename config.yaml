@@ -1,0 +1,7 @@
+train: data/prepared_images
+val: data/prepared_images  # Jei turite atskirą validacijos rinkinį, nurodykite jo kelią
+nc: 1  # Klasių skaičius
+names: ['light_source']  # Klasių pavadinimai
+img_size: 640  # Vaizdo dydis (pikseliais)
+batch_size: 16  # Batch dydis treniravimo metu
+epochs: 50  # Epochų skaičius
