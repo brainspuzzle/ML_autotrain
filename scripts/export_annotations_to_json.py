@@ -39,6 +39,6 @@ class AnnotationExporter:
 
 # Naudojimas
 if __name__ == "__main__":
-    exporter = AnnotationExporter("data/annotations", "data/light_sources.json")
+    exporter = AnnotationExporter("../data/annotations", "../data/light_sources.json")
     exporter.export_to_json()
 

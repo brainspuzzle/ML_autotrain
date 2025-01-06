@@ -11,7 +11,8 @@ class ModelTrainer:
 
     def train(self):
         train_command = (
-            f"python yolov7/train.py "
+            f"/Users/ciniminis/PycharmProjects/ML_auto_training_tool/.venv/bin/python3 "
+            f"../yolov7/train.py "
             f"--data {self.config_file} "
             f"--cfg {self.model_cfg} "
             f"--weights {self.weights} "

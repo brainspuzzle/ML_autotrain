@@ -6,3 +6,4 @@ matplotlib
 PyYAML
 onnx
 onnxruntime
+tensorboard
